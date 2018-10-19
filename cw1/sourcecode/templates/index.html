@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<html>
+<head>
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
+
+</head>
+<body>
+
+<div class="navbar">
+  <a href="http://set09103.napier.ac.uk:9135/">Home</a>
+  <a href="stars/sun.html">Sun</a>
+  <a href="planets/mercury.html">Mercury</a>
+  <a href="#venus">Venus</a>
+  <div class="dropdown">
+    <button class="dropbtn">Earth
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="moons/moon.html">Moon</a>
+    </div>
+  </div>
+
+<div class="dropdown">
+   <button class="dropbtn">Mars
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Phobos</a>
+      <a href="#">Deimos</a>
+    </div>
+  </div>
+
+
+<div class="dropdown">
+   <button class="dropbtn">Jupitar
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Europa</a>
+      <a href="#">Ganymede</a>
+      <a href="#">Io</a>
+      <a href="#">Callisto</a>
+    </div>
+  </div>
+
+<div class="dropdown">
+   <button class="dropbtn">Saturn
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Titan</a>
+      <a href="#">Enceladus</a>
+      <a href="#">Mimas</a>
+      <a href="#">Iapetus</a>
+      <a href="#">Rhea</a>
+      <a href="#">Dione</a>
+      <a href="#">Phoebe</a>
+    </div>
+  </div>
+
+<div class="dropdown">
+   <button class="dropbtn">Uranus
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Umbriel</a>
+      <a href="#">Titania</a>
+      <a href="#">Miranda</a>
+      <a href="#">Ariel</a>
+      <a href="#">Oberon</a>
+      <a href="#">Trinculo</a>
+      <a href="#">Cordelia</a>
+    </div>
+  </div>
+
+<div class="dropdown">
+   <button class="dropbtn">Neptune
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Triton</a>
+      <a href="#">Neptune XIV</a>
+      <a href="#">Laomedeia</a>
+      <a href="#">Proteus</a>
+      <a href="#">Nereid</a>
+      <a href="#">Despina</a>
+      <a href="#">Galatea</a>
+    </div>
+  </div>
+
+<div class="dropdown">
+   <button class="dropbtn">Pluto
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Charon</a>
+      <a href="#">Hydra</a>
+      <a href="#">Nix</a>
+      <a href="#">Styx</a>
+      <a href="#">Kerberos</a>
+    </div>
+  </div>
+</div>
+
+
+<center><h1 id="heading">Welcome to Solar Explorer</h1></center>
+<center><p>A guide to our solar system for young adults.</p></center>
+<center><p>Explore our solar system's planets and their moons.</p></center>
+
+
+<div id="divcentre">
+
+<img id="imagecentre" src="{{ url_for('static', filename='solarsystem.jpg') }}" width="580" height="400" >
+
+<div id="stats"><p>The Solar System is made up of the Sun and all of the smaller objects that move around it. Apart from the Sun, the largest members of the Solar System are the eight major planets. Nearest the Sun are four fairly small, rocky planets - Mercury, Venus, Earth and Mars.</p>
+
+<p>Beyond Mars is the asteroid belt – a region populated by millions of rocky objects. These are left-overs from the formation of the planets, 4.5 billion years ago.</p>
+
+<p>On the far side of the asteroid belt are the four gas giants - Jupiter, Saturn, Uranus and Neptune. These planets are much bigger than Earth, but very lightweight for their size. They are mostly made of hydrogen and helium.</p>
+
+<p>Until recently, the furthest known planet was an icy world called Pluto. However, Pluto is dwarfed by Earth’s Moon and many astronomers think it is too small to be called a true planet.</p>
+
+<p>An object named Eris, which is at least as big as Pluto, was discovered very far from the Sun in 2005. More than 1,000 icy worlds such as Eris have been discovered beyond Pluto in recent years. These are called Kuiper Belt Objects. In 2006, the International Astronomical Union decided that Pluto and Eris must be classed as “dwarf planets”.</p>
+
+<p>Even further out are the comets of the Oort Cloud. These are so far away that they are invisible in even the largest telescopes. Every so often one of these comets is disturbed and heads towards the Sun. It then becomes visible in the night sky.</p> </div>
+<div id="stats2"> 
+
+<table class="infobox"><caption style="padding-bottom:1.15em;">Solar System Fun Facts</caption><tbody><tr><td>
+  <tr>
+    <td>Age</td>
+    <td></td>
+    <td>4.568 billion years</td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr>
+    <td>Location</td>
+    <td></td>
+    <td>Local Interstellar Cloud, Local Bubble,
+    Orion–Cygnus Arm, Milky Way</td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr>
+    <td>Suns</td>
+    <td></td>
+    <td>1</td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr>
+    <td>Planets</td>
+    <td></td>
+    <td>8</td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr>
+    <td>Dwarf Planets</td>
+    <td></td>
+    <td>5</td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr>
+    <td>FACT:</td>
+    <td></td>
+    <td>Did you know that Pluto was once classified as a planet? It was reclassified as a dwarf planet in August 2006.</td>
+  </tr>
+    <tr>
+   <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  </tr>
+  </tr>
+</table>
+
+<iframe width="400" height="245" src="https://www.youtube.com/embed/libKVRa01L8?rel=0" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+</div>
+
+
+</body>
+</html>

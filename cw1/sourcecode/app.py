@@ -24,11 +24,15 @@ def moon():
 def moonlist():
 	if request.method == 'GET':
 	   return render_template ('moonlist.html')
+	else
+	   return render_template('"Moon list is unavailable right now"')
 
 @app.route("/planetlist/", methods=['POST','GET'])
 def planetlist():
         if request.method == 'GET':
            return render_template ('planetlist.html')
+	else
+           return render_template('"Planet list is unavailable right now"')
 
 @app.errorhandler(404)
 def page_not_found(error):

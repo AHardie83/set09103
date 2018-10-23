@@ -8,11 +8,11 @@ def root():
     return render_template('index.html')
 
 
-@app.route ('/stars/sun/')
+@app.route ('/stars/sun.html/')
 def sun():
     return render_template('/stars/sun.html')
 
-@app.route('/planets/mercury/')
+@app.route('/planets/mercury.html/')
 def mercury():
     return render_template('/planets/mercury.html')
 
